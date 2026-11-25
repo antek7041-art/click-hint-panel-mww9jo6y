@@ -1,0 +1,35 @@
+{
+	"geode": "5.4.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081"
+	},
+	"id": "user.click-hint-panel",
+	"name": "Click Hint Panel",
+	"version": "v1.0.0",
+	"developer": "user",
+	"description": "Panel z boku pokazujący kiedy kliknąć + kulka z numerem 1-10 (klatki zapasu) w miejscu skoku i dźwięk.",
+	"settings": {
+		"warn-distance": {
+			"type": "float",
+			"name": "Dystans ostrzeżenia (bloki)",
+			"description": "Ile bloków przed kliknięciem panel zacznie świecić.",
+			"default": 2.0,
+			"min": 0.5,
+			"max": 10.0
+		},
+		"play-sound": {
+			"type": "bool",
+			"name": "Dźwięk po pokazaniu kulki",
+			"default": true
+		},
+		"sound-volume": {
+			"type": "float",
+			"name": "Głośność dźwięku",
+			"default": 0.8,
+			"min": 0.0,
+			"max": 1.0
+		}
+	}
+}
